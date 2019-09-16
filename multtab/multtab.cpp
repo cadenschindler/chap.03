@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
 
-
 	for (int row = 1; row <= 12; row++) {
 		for (int col = 1; col <= 12; col++) {
 			cout << setw(5) << row * col;

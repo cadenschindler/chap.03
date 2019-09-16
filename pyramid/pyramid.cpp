@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 
+	
 	for (int height = 0; height < LAYERS; height++) {
 		for (int i = 0; i < LAYERS - height - 1; i++) {
 			cout << " ";
@@ -13,6 +14,7 @@ int main() {
 		}
 		cout << endl;
 	}
+	
 
 	return 0;
 }
